@@ -291,7 +291,7 @@ nav ul li {
 
   text-decoration:none;
   color: #aaa2d6;
-  
+
 }
 
 .no-underline {
@@ -459,8 +459,8 @@ h2 {
 footer {
 
 
-  margin-left: 16rem;
-  margin-right: 16rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
   border: solid;
   padding-top: 0.3rem;
   border-top-width: 1;

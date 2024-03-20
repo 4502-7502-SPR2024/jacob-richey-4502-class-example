@@ -259,6 +259,12 @@ nav ul li {
 .list-item {
   display: flex;
   flex-direction: column;
+  border: solid;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0.2rem;
+  border-color:#e8e6f4;
 
 }
 
@@ -314,15 +320,15 @@ nav ul li {
 }
 
 .list-description {
-  display:flex;
-  flex-flow: column wrap;
+  display: inline;
+/*  flex-flow: row wrap;*/
   padding-bottom: 0.3rem;
-  border: solid;
+  /*border: solid;
   border-top-width: 0;
   border-left-width: 0;
   border-right-width: 0;
   border-bottom-width: 0.2rem;
-  border-color:#e8e6f4;
+  border-color:#e8e6f4;*/
 }
 
 

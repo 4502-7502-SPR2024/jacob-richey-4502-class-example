@@ -477,8 +477,14 @@ footer {
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 1rem;
-  margin-right: 16rem;
-  margin-left: 16rem;
+/*  margin-right: 16rem;
+  margin-left: 16rem;*/
+  max-width: 70%;
+/*  justify-content: center;
+  align-items: center;*/
+/*  margin-left: 15%;
+  margin-right: 15%;*/
+
 
 }
 
@@ -496,9 +502,17 @@ footer {
 }
 
 
-.centered-text {
-  margin-right: 20rem;
-  margin-left: 20rem;
+.opening {
+ /* margin-right: 20rem;
+  margin-left: 20rem;*/
+  display:flex; 
+  flex-flow: column nowrap;
+  justify-content: center; 
+  align-items: center;
+/*  max-width:60%;*/
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 1rem;
 
 }
 
@@ -521,7 +535,13 @@ footer {
   border-color:#e8e6f4;
 }
 
+.list-body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 
+
+}
 
 }
 

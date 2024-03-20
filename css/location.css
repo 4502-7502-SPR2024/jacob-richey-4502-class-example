@@ -241,10 +241,15 @@ nav ul li {
     display: flex;
     max-width: 100%;
 
+  }
+
+
+  body a {
+
+    color: #483d8b;
 
 
   }
-
 
   h2 {
     font-family: "DM Sans", sans-serif;
@@ -265,6 +270,7 @@ nav ul li {
   border-right-width: 0;
   border-bottom-width: 0.2rem;
   border-color:#e8e6f4;
+  margin-bottom: 1rem;
 
 }
 
@@ -330,6 +336,40 @@ nav ul li {
   border-bottom-width: 0.2rem;
   border-color:#e8e6f4;*/
 }
+
+
+.sidebar {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #e8e6f4;
+  margin-top: 1rem;
+  padding: 0.5rem;
+
+
+}
+
+
+.sidebar h3 {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #3b3b3b;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar p {
+  font-size: 0.8rem;
+  font-family:"DM Sans", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 0.4rem;
+  display: inline;
+
+
+}
+
 
 
 /*media queries*/

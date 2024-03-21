@@ -508,7 +508,7 @@ footer {
 
 
 .sidebar {
-max-width: 40%;
+max-width: 100%;
 margin-right: 0.5rem;
 margin-left: 0.5rem;
 }
@@ -549,6 +549,21 @@ margin-left: 0.5rem;
 
 }
 
+
+.sidebar2 {
+display: flex;
+flex-flow: row nowrap;
+
+
+}
+
+
+.sidebar2 .list-text {
+  order:0;
+  margin-left: 1rem;
+}
+
+
  .sidebar2 .list-description {
   max-width: 60%;
 
@@ -556,8 +571,13 @@ margin-left: 0.5rem;
 }
 
 
-.sidebar2 .sidebar {
-  max-width:100%;
+
+.sidebar2 .list-blocks {
+  order:-1;
+
+
+}
+
 
 
 }
@@ -570,12 +590,7 @@ margin-left: 0.5rem;
 
 }
 
-/*.sidebar2 {
-  display: flex;
-  flex-flow: row;
 
-
-}*/
 
 
 

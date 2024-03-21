@@ -578,15 +578,14 @@ flex-flow: row nowrap;
 
 }
 
-
-
-}
-
 .list-body {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 
+}
+
+
 
 }
 
@@ -594,7 +593,7 @@ flex-flow: row nowrap;
 
 
 
-}
+
 
 
 

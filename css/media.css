@@ -269,6 +269,7 @@ nav ul li {
   padding: 0.4rem;
   margin: 0.2rem;
   font-size: 1rem;
+  cursor: pointer;
 
 
 }
@@ -405,6 +406,8 @@ figure img {
 #stepper {
   margin-right: 0.3rem;
   margin-left: 0.3rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
 }
 
 
@@ -652,6 +655,7 @@ figure figcaption {
 
 
 }
+
 
 
 .button-holder{

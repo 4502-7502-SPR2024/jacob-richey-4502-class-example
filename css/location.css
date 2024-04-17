@@ -317,6 +317,37 @@ footer {
 
 }
 
+.skip-link {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #483d8b;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  padding-bottom: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+  background: 0;
+}
+
+.skip-link:focus{
+  width: 10rem;
+  height: 1rem;
+  position: relative;
+  padding: 0.5rem;
+  margin: unset;
+  font-size: 1.3rem;
+  border: solid;
+  border-width: 0.1rem;
+  border-color: #aaa2d6;
+  background: #e8e6f4;
+
+}
+
 
 /*media queries*/
 /*tablet*/

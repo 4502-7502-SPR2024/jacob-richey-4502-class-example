@@ -194,7 +194,7 @@ body section {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-
+}
 
 p {
 
@@ -231,6 +231,8 @@ ul{
 	font-family:"IBM Plex Serif", serif;
 	list-style-type: square;
 
+}
+
 li a {
 	font-family: ;
 	font-family:"IBM Plex Serif", serif;
@@ -242,7 +244,7 @@ li a {
 }
 
 
-}
+
 
 
 /*ul {

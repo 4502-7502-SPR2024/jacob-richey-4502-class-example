@@ -261,14 +261,11 @@ ul a:hover {
   margin: 0.2rem;
   font-size: 1rem;
   cursor: pointer;
-
-
 }
 
 button:hover {
   text-decoration:none;
   color: #aaa2d6;
-
 }
 
 figure {
@@ -278,7 +275,6 @@ figure {
   max-width:100%;
   margin-left:0;
   margin-right:0;
-
 }
 
 figure figcaption {
@@ -290,8 +286,6 @@ figure figcaption {
   border-bottom-color: #e8e6f4;
   max-width: 70%;
   align-self: center;
-
-
   }
 
   figure figcaption a {
@@ -632,9 +626,13 @@ figure {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  margin-right:15%;
-  margin-left:15%;
+  max-width: 70%;
+  margin: auto;
+  /*margin-right:15%;
+  margin-left:15%;*/
 }
+
+
 
 }
 
@@ -866,21 +864,35 @@ figure {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  margin-right:20%;
-  margin-left:20%;
+  max-width: 50%;
+  margin: auto;
+  /*margin-right:20%;
+  margin-left:20%;*/
 }
+
+
+
+/*figure figcaption {
+  font-family:"IBM Plex Serif", serif;
+  font-size: 0.7rem;
+  border-bottom: solid;
+  border-bottom-width: 0.2rem;
+  padding-bottom: 0.3rem;
+  border-bottom-color: #e8e6f4;
+  max-width: 70%;
+  align-self: center;
+  }*/
 
 
 figure figcaption {
   border-bottom:none;
   font-size: 0.8rem;
-
-
 }
 
 .button-holder{
   order: 1;
   margin-bottom: 3rem;
+  margin-top: 1rem;
 
 }
 

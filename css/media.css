@@ -344,8 +344,6 @@ figure img {
   right: 0.2rem;
   z-index: 3;
   padding: 0.2rem;
-
-
 }
 
 .image-credit a:hover {
@@ -374,7 +372,7 @@ figure img {
 
 }
 
-.list-description {
+.list-description-media {
   padding-bottom: 0.3rem;
   border: solid;
   border-top-width: 0;
@@ -529,7 +527,7 @@ footer {
 
 
 
-.list-description {
+.list-description-media {
   padding-bottom: 0.3rem;
   border: solid;
   border-top-width: 0;
@@ -657,7 +655,7 @@ footer {
   font-size: 1.2rem;
 }
 
-.list-description {
+.list-description-media {
   padding-bottom: 0.3rem;
   border: solid;
   border-top-width: 0;
@@ -667,7 +665,7 @@ footer {
   border-color:#e8e6f4;
 }
 
-.list-body {
+.list-body-media {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;

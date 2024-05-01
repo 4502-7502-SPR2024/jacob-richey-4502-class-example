@@ -246,6 +246,59 @@ ul a:hover {
   text-decoration:underline;
 }
 
+  button {
+  background:#e8e6f4;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: black;
+  border: none;
+  padding: 0.4rem;
+  margin: 0.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+
+
+}
+
+button:hover {
+  text-decoration:none;
+  color: #aaa2d6;
+
+}
+
+figure {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  max-width:100%;
+  margin-left:0;
+  margin-right:0;
+
+}
+
+figure figcaption {
+  font-family:"IBM Plex Serif", serif;
+  font-size: 0.7rem;
+  border-bottom: solid;
+  border-bottom-width: 0.2rem;
+  padding-bottom: 0.3rem;
+  border-bottom-color: #e8e6f4;
+  max-width: 70%;
+  align-self: center;
+
+
+  }
+
+  figure figcaption a {
+  color: #483d8b;
+
+  }
+
+figure img {
+  margin-bottom: 1rem;
+}
+
 
 /*classes*/
 
@@ -256,6 +309,11 @@ ul a:hover {
 
 }
 
+.list-item-media {
+  display: flex;
+  flex-direction: column;
+
+}
 
 .list-image {
   display:flex;
@@ -280,11 +338,45 @@ ul a:hover {
 
 }
 
+.image-credit {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #483d8b;
+  font-size: 0.8rem;
+  background-color: rgb(255 255 255 / 80%);
+  position: absolute;
+  bottom: 0.2rem;
+  right: 0.2rem;
+  z-index: 3;
+  padding: 0.2rem;
+}
+
+.image-credit a:hover {
+
+  text-decoration:none;
+  color: #aaa2d6;
+
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
 .list-description {
   display: inline;
   padding-bottom: 0.3rem;
 }
 
+.list-description-media {
+  padding-bottom: 0.3rem;
+  border: solid;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0.2rem;
+  border-color:#e8e6f4;
+}
 
 .sidebar {
   display: flex;
@@ -357,6 +449,29 @@ ul a:hover {
 
 }
 
+.portfolio {
+  background:white;
+
+}
+
+
+
+.button-holder  {
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.hideThis {
+  display: none;
+}
+
+#stepper {
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
 
 .lead-image {
 /*  max-width: 100%;*/
@@ -371,6 +486,9 @@ ul a:hover {
   flex-flow: column nowrap;
   justify-content: center;
 }
+
+
+
 
 
 
@@ -437,12 +555,25 @@ footer {
 }
 
 
+.list-item-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+
+}
+
 .list-image {
   width: 33%;
 
 }
 
-
+.list-text-media {
+  max-width:60%;
+  margin-left: 1rem;
+  margin-right: 5rem;
+}
 
 
 .centered-text {
@@ -459,7 +590,16 @@ footer {
 
 .list-description {
   padding-bottom: 0.3rem;
+}
 
+.list-description-media {
+  padding-bottom: 0.3rem;
+  border: solid;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0.6rem;
+  border-color:#e8e6f4;
 }
 
 
@@ -483,6 +623,14 @@ margin-left: 0.5rem;
   margin: auto;
 
 
+}
+
+figure {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-right:15%;
+  margin-left:15%;
 }
 
 }
@@ -560,6 +708,21 @@ footer {
 
 }
 
+.list-item-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+/*  margin-right: 16rem;
+  margin-left: 16rem;*/
+  max-width: 70%;
+/*  justify-content: center;
+  align-items: center;*/
+/*  margin-left: 15%;
+  margin-right: 15%;*/
+}
+
 
 .list-image {
   width: 40%;
@@ -570,6 +733,13 @@ footer {
   display: flex;
   flex-flow: row wrap;
   margin-left: 0;
+
+
+}
+
+.list-text-media {
+  max-width:50%;
+  margin-left: 1rem;
 
 
 }
@@ -619,6 +789,16 @@ margin-left: 0.5rem;
 
 }
 
+.list-description-media {
+  padding-bottom: 0.3rem;
+  border: solid;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 1rem;
+  border-color:#e8e6f4;
+}
+
 
 .sidebar2 {
 display: flex;
@@ -663,6 +843,14 @@ align-content: flex-start;
 
 }
 
+.list-body-media {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+
+}
+
 
 .home-text {
   max-width: 50%;
@@ -670,6 +858,37 @@ align-content: flex-start;
 
 
 }
+
+figure {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-right:20%;
+  margin-left:20%;
+}
+
+
+figure figcaption {
+  border-bottom:none;
+  font-size: 0.8rem;
+
+
+}
+
+.button-holder{
+  order: 1;
+  margin-bottom: 3rem;
+
+}
+
+
+ #stepper {
+  margin-right:1rem;
+  margin-left:1rem;
+
+
+
+ }
 
 
 }

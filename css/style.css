@@ -130,7 +130,11 @@
 
 
 
+main {
 
+  display: flex;
+  flex-direction: column;
+}
 
 nav {
   display: flex;
@@ -451,7 +455,6 @@ figure img {
 
 .portfolio {
   background:white;
-
 }
 
 

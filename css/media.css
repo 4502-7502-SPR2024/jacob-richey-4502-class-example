@@ -443,6 +443,10 @@ figure img {
 }
 
 
+nav .current-page {
+  background-color: #cfcbe8;
+}
+
 /*media queries*/
 /*tablet*/
 @media screen and (min-width: 555px) {

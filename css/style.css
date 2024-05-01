@@ -158,16 +158,11 @@ nav a:hover {
   text-decoration:none;
 /*  color: #aaa2d6;*/
   background-color: #cfcbe8;
-
-
 }
 
 
 nav .current-page {
   background-color: #cfcbe8;
-
-
-
 }
 
 footer {
@@ -181,9 +176,6 @@ footer {
   font-weight: 400;
   color: #3b3b3b;
   font-size: 0.8rem;
-
-
-
 }
 
 
@@ -215,36 +207,45 @@ footer {
     font-size: 1.7rem;
     /*margin-left: 0.7rem;
     margin-right: 0.7rem;*/
-
-
   }
 
   body img {
-    display: flex;
     max-width: 100%;
-
   }
 
   body p {
     display: flex;
     max-width: 100%;
-
   }
 
 
   body a {
-
     color: #483d8b;
-
-
   }
 
   h2 {
     font-family: "DM Sans", sans-serif;
     font-weight: 800;
-/*    margin: 0.2 rem;*/
-
   }
+
+
+ul {
+/*  margin-left: 2rem;
+  margin-right: 2rem;*/
+  font-family:"IBM Plex Serif", serif;
+  list-style-type: square;
+}
+
+li a {
+  font-family:"IBM Plex Serif", serif;
+  color: #483d8b;
+  text-decoration: none;
+}
+
+ul a:hover {
+  text-decoration:underline;
+}
+
 
 /*classes*/
 
@@ -357,6 +358,23 @@ footer {
 }
 
 
+.lead-image {
+/*  max-width: 100%;*/
+  margin-left:-1rem;
+  margin-right:-1rem;
+
+}
+
+
+.home {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+
+
+
 /*media queries*/
 /*tablet*/
 @media screen and (min-width: 555px) {
@@ -460,7 +478,12 @@ margin-left: 0.5rem;
   margin-bottom: 0.7rem;
 }
 
+.home-text {
+  max-width: 80%;
+  margin: auto;
 
+
+}
 
 }
 
@@ -511,6 +534,11 @@ footer {
   border-bottom-width: 0;
   border-color:#e8e6f4;
 }
+
+  body img {
+    display: flex;
+    max-width: 100%;
+  }
 
 
 .list-item {
@@ -635,6 +663,13 @@ align-content: flex-start;
 
 }
 
+
+.home-text {
+  max-width: 50%;
+  margin: auto;
+
+
+}
 
 
 }
